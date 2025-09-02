@@ -1,0 +1,104 @@
+h1{
+    color: rgb(20, 20, 182);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacto_barra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+}
+
+.cuadro_ofrecimiento{
+    border: 1px solid #ccc;
+    border-radius: 15px; 
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #c0bfbf;
+    text-align: center;
+}
+
+.pie{
+    font-family: "Alfa Slab One", serif;
+    color: rgb(20, 20, 182);
+}
+
+.item_h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color: rgb(20, 20, 182);
+    text-align: center;
+}
+
+.seccion_dos_columnas{
+    display: flex;
+    height: 100vh;
+}
+
+.columna_texto{
+    flex: 1;
+    padding: 40px;
+    border: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(20, 20, 182);
+}
+
+.columna_imagen{
+    flex: 1px;
+}
+
+.barra_superior_azul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(20, 20, 182);
+}
+
+.barra_inferior_gris{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.boton_azul{
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 182);
+}
+
+/* para dar formato al menu de la parte superior
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+*/
