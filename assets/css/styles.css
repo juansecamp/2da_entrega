@@ -27,6 +27,11 @@ ul {
     background-color: var(--color_primario);
 }
 
+body{
+    font-size: 1em;
+    padding: 2%;
+}
+
 .navbar {
     height: 100%;
     display: flex;
@@ -37,6 +42,11 @@ ul {
     flex-wrap: wrap;
     position: relative;
     padding: 0 var(--padding_left_right);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .h1{
@@ -192,7 +202,6 @@ ul {
 }
 
 .about_gradiente{
-    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
 }
 
 .about_articulo{
